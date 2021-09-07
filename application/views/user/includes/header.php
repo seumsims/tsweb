@@ -122,6 +122,7 @@
         <?php } else if (!empty($Defcolor) && $Defcolor == 1) { ?>
             <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
         <?php } ?>
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
 
 
 

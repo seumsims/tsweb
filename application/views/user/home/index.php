@@ -21,9 +21,9 @@ if (!empty($result)) {
         <div class="home-banner"></div>	
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-md-7">
                     <div class="section-search">
-                        <h3><?php echo (!empty($user_language[$user_selected]['lg_world_largest'])) ? $user_language[$user_selected]['lg_world_largest'] : $default_language['en']['lg_world_largest']; ?> <span><?php echo (!empty($user_language[$user_selected]['lg_marget_place'])) ? $user_language[$user_selected]['lg_marget_place'] : $default_language['en']['lg_marget_place']; ?></span></h3>
+                    <h3> World's Largest <span> Marketplace </span></h3>
                         <p><?php echo (!empty($user_language[$user_selected]['lg_search_from'])) ? $user_language[$user_selected]['lg_search_from'] : $default_language['en']['lg_search_from']; ?> <?php echo $services_count ?> <?php echo (!empty($user_language[$user_selected]['lg_awesome_verified'])) ? $user_language[$user_selected]['lg_awesome_verified'] : $default_language['en']['lg_awesome_verified']; ?> </p>
                         <div class="search-box">
                             <form action="<?php echo base_url(); ?>search" id="search_service" method="post">
@@ -270,7 +270,7 @@ if (!empty($result)) {
                                     <div class="steps">01</div>
                                     <img src="<?php echo base_url(); ?>assets/img/icon-1.png">
                                 </div>
-                                <h3><?php echo (!empty($user_language[$user_selected]['lg_choose_what'])) ? $user_language[$user_selected]['lg_choose_what'] : $default_language['en']['lg_choose_what']; ?></h3>
+                                <h3> This is Demo Title 1 </h3>
                                 <p><?php echo (!empty($user_language[$user_selected]['lg_dapibus'])) ? $user_language[$user_selected]['lg_dapibus'] : $default_language['en']['lg_dapibus']; ?></p>
                             </div>
                         </div>
@@ -280,7 +280,7 @@ if (!empty($result)) {
                                     <div class="steps">02</div>
                                     <img src="<?php echo base_url(); ?>assets/img/icon-2.png">
                                 </div>
-                                <h3><?php echo (!empty($user_language[$user_selected]['lg_find_what'])) ? $user_language[$user_selected]['lg_find_what'] : $default_language['en']['lg_find_what']; ?></h3>
+                                <h3>This is Demo Title 2</h3>
                                 <p><?php echo (!empty($user_language[$user_selected]['lg_dapibus'])) ? $user_language[$user_selected]['lg_dapibus'] : $default_language['en']['lg_dapibus']; ?></p>
                             </div>
                         </div>
@@ -290,7 +290,7 @@ if (!empty($result)) {
                                     <div class="steps">03</div>
                                     <img src="<?php echo base_url(); ?>assets/img/icon-3.png">
                                 </div>
-                                <h3><?php echo (!empty($user_language[$user_selected]['lg_Amazing_Places'])) ? $user_language[$user_selected]['lg_Amazing_Places'] : $default_language['en']['lg_Amazing_Places']; ?></h3>
+                                <h3>This is Demo Title 3</h3>
                                 <p><?php echo (!empty($user_language[$user_selected]['lg_amesing_3'])) ? $user_language[$user_selected]['lg_amesing_3'] : $default_language['en']['lg_amesing_3']; ?></p>
                             </div>
                         </div>

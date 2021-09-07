@@ -1,0 +1,29 @@
+.main-nav > li > a {
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    
+}
+
+.home-banner {
+	background-image: url("../img/banner-girl-with-goggles.jpg");
+    background-color: rgb(0 0 0 / 69%);
+    background-blend-mode: multiply;
+    
+}
+/* on scroll .navbar-fixed */
+
+
+.header.sticktop.navbar-fixed .header-nav {
+    background: #ffffff;
+}
+
+
+header.sticktop.navbar-fixed {
+    
+    background: #ffffff;
+    /* box-shadow:0 10px 40px rgba(0, 0, 0, 0.05); */
+}
+

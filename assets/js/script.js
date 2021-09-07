@@ -97,7 +97,7 @@ Version      : 1.0
 			resizeInnerDiv();
 		}
 	});
-	
+	// may be this js brick is responsible for on scroll dark color
 	$(window).on('scroll', function(){
 		if ( $(window).scrollTop() > 100 ) {
 			$('.sticktop').addClass('navbar-fixed');
