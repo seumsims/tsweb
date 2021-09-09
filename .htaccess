@@ -1,4 +1,26 @@
-RewriteEngine on
+
+
+
+RewriteEngine On
+
+
+
+RewriteBase /tsweb/
+
+
+
+RewriteRule ^index\.php$ - [L]
+
+
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
+
+
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .* index.php?/$0 [PT,L] 
+
+
+
+RewriteRule . /tsweb/index.php [L]
+
+
